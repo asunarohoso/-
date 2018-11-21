@@ -1,93 +1,92 @@
-
 /* 上 */
 html:before {
-height: 40px;
+  height: 40px;
 }
 
 /* 右 */
 html:after {
-width: 10px;
+  width: 10px;
 }
 
 /* 下 */
 body:before {
-height: 16px;
+  height: 16px;
 }
 
 /* 左 */
 body:after {
-width: 10px;
+  width: 10px;
 }
 
-nav ul li a{
-top: 12px;
+nav ul li a {
+  top: 12px;
 }
 
-main{
-padding: 40px 10px 15px 10px;
+main {
+  padding: 40px 10px 15px 10px;
 }
 
-.flame img#mark{
-width: 33px;
-top: 5px;
-left: 3px;
+.flame img#mark {
+  width: 33px;
+  top: 5px;
+  left: 3px;
 }
 
 .flame img#char {
-width: 30%;
-top: 2%;
-left: 48px;
+  width: 45vw;
+  top: 10px;
+  left: 40px;
 }
 
-.flame img#copyright{
-bottom: 1px;
-right: 10px;
+.flame img#copyright {
+  bottom: 1px;
+  right: 10px;
 }
 
-.pc{
-display: none;
+.pc {
+  display: none;
 }
 
-.sp{
-display: block;
+.sp {
+  display: block;
 }
 
-nav{
-padding-top: 20px;
-width: 100vw;
-height: 100vh;
-z-index: 3;
-background: rgba(2, 162, 145,0.9);
-position: fixed;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-display: none;
+nav {
+  padding-top: 20px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  background: rgba(2, 162, 145, 0.9);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
 }
 
-nav ul{
-width: 60%;
-margin: 15% auto 0;
+nav ul {
+  width: 60%;
+  margin: 15% auto 0;
 }
 
-nav ul li{
-text-align: -webkit-center;
-height: inherit;
-box-sizing: border-box;
-border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+nav ul li {
+  text-align: -webkit-center;
+  height: inherit;
+  box-sizing: border-box;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
 }
 
 nav ul li:nth-of-type(4),
 nav ul li:nth-of-type(5),
-nav ul li:last-child{
-border-bottom: none;
+nav ul li:last-child {
+  border-bottom: none;
 }
 
-nav ul li a{
-position: inherit;
-display: block;
-height: 60px;
-width: 100%;
+nav ul li a {
+  position: inherit;
+  display: block;
+  height: 60px;
+  width: 100%;
 }
 
 nav ul li a#about,
@@ -95,97 +94,123 @@ nav ul li a#media,
 nav ul li a#works,
 nav ul li a#company,
 nav ul li a#contact,
-nav ul li#close
-{
-background-image: none;
-width: 100%;
-line-height: 60px;
-color: #fff;
-letter-spacing: 0.15rem;
-font-weight: bold;
+nav ul li#close {
+  background-image: none;
+  width: 100%;
+  line-height: 60px;
+  color: #fff;
+  letter-spacing: 0.15rem;
+  font-weight: bold;
 }
 
-nav ul li a#contact{
-background-size: 100px;
-margin: 0;
-padding: 0;
-width: 100%;
-height: 60px;
-border: none;
-color: #fff;
-border: 1px solid rgba(255, 255, 255, 0.5);
-box-sizing: border-box;
+nav ul li a#contact {
+  background-size: 100px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+  border: none;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
 }
 
-nav ul li#close{
-margin-top: 20px;
-color: #fff;
-background: #383838;
-border: none;
+nav ul li#close {
+  margin-top: 20px;
+  color: #fff;
+  background: #383838;
+  border: none;
 }
 
-nav ul li span.hidden{
-width: inherit;
-height: inherit;
+nav ul li span.hidden {
+  width: inherit;
+  height: inherit;
 }
 
 p.add_open,
-p.add_close{
-color: #fff;
-margin: 0;
-width: 100px;
-height: 36px;
-background: #02a291;
-position: fixed;
-top: 2px;
-right: 10px;
-z-index: 3;
-text-align: center;
-line-height: 36px;
-letter-spacing: 0.1rem;
+p.add_close {
+  color: #fff;
+  margin: 0;
+  width: 100px;
+  height: 36px;
+  background: #02a291;
+  position: fixed;
+  top: 2px;
+  right: 10px;
+  z-index: 3;
+  text-align: center;
+  line-height: 36px;
+  letter-spacing: 0.1rem;
 }
 
-p.add_close{
-background: #383838;
-display: none;
+p.add_close {
+  background: #383838;
+  display: none;
 }
 
-.blur{
-filter: blur(4px);
+.blur {
+  filter: blur(4px);
 }
 
-@media screen and (orientation:landscape){
-  nav ul{
+@media screen and (orientation:landscape) {
+
+  /* 上 */
+  html:before {
+    height: 60px;
+  }
+
+  p.add_open, p.add_close{
+    height: 55px;
+    line-height: 55px;
+  }
+
+  .flame img#mark {
+    width: 50px;
+    top: 5px;
+    left: 10px;
+  }
+
+  .flame img#char {
+    width: 35vw;
+    top: 14px;
+    left: 65px;
+  }
+
+  nav ul {
     width: 100%;
     margin-top: 40px;
     overflow: hidden;
   }
 
-  nav ul li{
+  nav ul li {
     width: 50%;
     float: left;
     padding: 0 60px;
     border: none;
   }
 
-  nav ul li a{
+  nav ul li a {
     border-bottom: 1px dashed #fff;
     box-sizing: border-box;
   }
 
   nav ul li:nth-of-type(3) a,
-  nav ul li:nth-of-type(4) a{
+  nav ul li:nth-of-type(4) a {
     border: none;
   }
 
-  nav ul li#close{
+  nav ul li#close {
     width: 50%;
     margin: 0;
     background: none;
   }
 
-  nav ul li#close span{
+  nav ul li#close span {
     width: 100%;
     background: #383838;
+  }
+
+  .company_index .sectionInner{
+   padding-bottom: 15px;
   }
 }

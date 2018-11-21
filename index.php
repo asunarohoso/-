@@ -11,8 +11,6 @@ $slider = <<<SLIDER
 ]
 SLIDER;
 ?>
-
- test
   <div id="zoom_slider" data-zs-src='<?=$slider;?>' data-zs-overlay="dots" data-zs-bullets="false">
     <div class="slider-inner-content">
       <h2>神田の広告代理店あすなろ報創</h2>

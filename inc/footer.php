@@ -27,31 +27,6 @@
     $('main').removeClass('blur');
     return_scroll();
   });
-
-  var timer = false;
-  var w = 0;
-
-  //ロード時
-  $(window).load(function() {
-    w = $(window).width();
-  });
-
-  //リサイズ時
-  $(window).resize(function() {
-    if (timer !== false) {
-      clearTimeout(timer);
-    }
-    timer = setTimeout(function() {
-      if($(window).width() != w){
-        // 幅変更後に行う処理
-        location.reload();
-
-        //幅再設定
-        w = $(window).width();
-      }
-    }, 200);
-  });
-
 </script>
 <?=$footer;?>
 </body>
