@@ -1,0 +1,20 @@
+@media screen and (min-width:1600px){
+  .news_index ul li span:last-child{
+    display: inline;
+  }
+
+  .company_index .sectionInner dl{
+    width: 350px
+  }
+
+  .company_index .sectionInner dl dt{
+    float: left;
+    clear: left;
+    width: 85px;
+  }
+
+  .company_index .sectionInner dl dd{
+    float: left;
+    margin-bottom: 20px;
+  }
+}

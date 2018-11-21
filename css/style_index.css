@@ -1,0 +1,145 @@
+#zoom_slider{
+  overflow: hidden;
+  width: 100%;
+  min-height: calc(100vh - 130px);
+  background-color: #999;
+}
+
+.slider-inner-content{
+  color: #fff;
+  padding: 39px
+}
+
+h2{
+  font-size: calc(100vw / 8.4);
+  letter-spacing: 0.5rem;
+  line-height: calc(100vw / 7.5)
+}
+
+section{
+  border-top: 10px solid #e6e6e6;
+  display: flex;
+  align-items: center;
+}
+
+h3{
+  display: flex;
+  width: calc(100% / 5);
+  min-height: 400px;
+  justify-content: center;
+}
+
+h3 img{
+  width: 32px;
+}
+
+.news_index ul li{
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+
+.news_index ul li:last-child{
+  margin: 0;
+}
+
+.news_index ul li span{
+  margin-right: 10px;
+  font-size: 0.7rem;
+}
+
+.news_index ul li span:last-child{
+  margin-right: 0;
+  display: block;
+  font-size: 0.9rem;
+  margin: 10px 0 0 0;
+  font-weight: bold;
+}
+
+.news_index ul li span.category{
+  color: #fff;
+  padding: 2px 25px
+}
+
+.news_index ul li span.info_publish{
+  background: #003b99;
+}
+
+.news_index ul li span.info_media{
+  background: #9800a0;
+}
+
+.news_index ul li span.info_company{
+  background: #00a291;
+}
+
+.news_index .sectionInner,
+.media_index .sectionInner,
+.works_index .sectionInner,
+.company_index .sectionInner{
+  padding:50px 0;
+  display: flex;
+  align-items: center;
+  width: calc(100% - (100% / 5) - 20px);
+}
+
+.media_index .sectionInner div,
+.company_index .sectionInner div{
+  width: calc(100% / 4);
+  font-size: 0.87rem;
+  letter-spacing: 0.17rem;
+  line-height: 1.6rem;
+  font-weight: bold;
+}
+
+.company_index .sectionInner div{
+  width: 350px;
+}
+
+.media_index .sectionInner ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: calc(100% - 35%);
+  margin-left: calc(100% / 30);
+}
+
+.media_index .sectionInner ul li{
+
+}
+
+.media_index .sectionInner ul li img{
+
+}
+
+.works_index .sectionInner ul{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.works_index .sectionInner ul li img{
+  width: calc((100vw - (100vw / 2)) / 4);
+}
+
+.company_index .sectionInner dl{
+  overflow: hidden;
+  font-size: 0.8rem;
+}
+
+.company_index .sectionInner dl dt{
+  font-size: 0.89rem;
+  font-weight: bold;
+}
+
+.company_index .sectionInner dl dd{
+  font-weight: 100;
+}
+
+.company_index .sectionInner iframe{
+  width: calc(100vw - 350px);
+  height: 400px;
+  margin-left: 30px;
+  margin-right: 20px
+}

@@ -1,0 +1,128 @@
+@media screen and (min-width:1600px){
+  .news_index ul li span:last-child{
+    display: inline;
+  }
+
+  .company_index .sectionInner dl{
+    width: 350px;
+  }
+
+  .company_index .sectionInner dl dt{
+    float: left;
+    clear: left;
+    width: 85px;
+  }
+
+  .company_index .sectionInner dl dd{
+    float: left;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width:1023px){
+  html{
+    min-width: 100vw;
+  }
+
+  section{
+    align-items: flex-start;
+  }
+
+  h3{
+    min-height: inherit;
+    padding: 50px 0 0 0;
+  }
+
+  .news_index .sectionInner,
+  .media_index .sectionInner,
+  .works_index .sectionInner,
+  .company_index .sectionInner{
+    display: block;
+  }
+
+  .media_index .sectionInner div,
+  .company_index .sectionInner div{
+    width: 100%;
+  }
+
+  .media_index .sectionInner ul{
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0;
+  }
+
+  .media_index .sectionInner ul li{
+    margin-right: 50px;
+  }
+
+  .works_index .sectionInner ul li img{
+    width: calc((100vw - (100vw / 2)) / 3);
+  }
+
+  .company_index .sectionInner dl dt{
+    float: left;
+    clear: left;
+    width: 100px;
+  }
+
+  .company_index .sectionInner dl dd{
+    float: left;
+  }
+
+  .company_index .sectionInner iframe{
+    margin: 20px 0 0 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:735px){
+  html{
+    min-width: 100vw;
+  }
+
+  section{
+    display: block;
+  }
+
+  h3{
+    width: 100%;
+  }
+
+  h3 img{
+    display: none;
+  }
+
+  h3 span.hidden{
+    display: block;
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+    letter-spacing: 0.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .news_index .sectionInner,
+  .media_index .sectionInner,
+  .works_index .sectionInner,
+  .company_index .sectionInner{
+    width: inherit;
+    padding: 40px 20px 20px;
+  }
+
+  .media_index .sectionInner ul{
+    justify-content: center;
+  }
+
+  .media_index .sectionInner ul li{
+    margin: 0 20px;
+  }
+
+  .works_index .sectionInner ul li{
+    width: calc(100% / 3);
+  }
+
+  .works_index .sectionInner ul li img{
+    width: 100%;
+  }
+}
