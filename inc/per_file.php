@@ -34,4 +34,12 @@ EOT;
 EOT;
 }
 
+// contact
+if($file_name == 'company'){
+  $meta = <<<EOT
+EOT;
+  $footer = <<<EOT
+EOT;
+}
+
 ?>

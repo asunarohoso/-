@@ -1,0 +1,142 @@
+html{
+  min-width: 100vw;
+}
+
+main section{
+  display: flex;
+  margin: 40px 40px 40px 0;
+  flex-wrap: wrap;
+}
+
+main section h3{
+  width: 140px;
+  text-align: center;
+  position: fixed;
+}
+
+main section h3 img{
+  width: 40px;
+}
+
+.contents_company,
+.company_story{
+  width: 400px;
+}
+
+.contents_company{
+  flex-shrink: 0;
+  margin-left:100px;
+}
+
+.contents_company dl{
+  margin-bottom: 20px;
+}
+
+.contents_company dl dt,
+.contents_company dl dd{
+  font-size: 0.8rem;
+}
+
+.contents_company dl dt{
+  margin-bottom: 2px;
+}
+
+.contents_company dl dd{
+
+}
+
+.company_story{
+  margin-left: 140px;
+  flex-shrink: 0;
+}
+
+.company_story h5{
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 25px;
+}
+
+.company_story p{
+  font-size: .9rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.company_story p:last-child{
+  margin-top: 40px;
+  text-align: right;
+}
+
+.company_story p span{
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+}
+
+iframe{
+  width: 30%;
+  height: calc(100vh - 210px);
+  position: fixed;
+  right: 90px;
+}
+
+@media screen and (max-width:1850px){
+
+  .contents_company{
+  }
+
+  .contents_company,
+  .company_story{
+    width: calc((100% - 310px) / 3.5);
+  }
+}
+
+@media screen and (max-width:1500px){
+  .contents_company{
+    margin-left: 60px;
+  }
+
+  .contents_company,
+  .company_story{
+    width: calc((100% - 310px) / 3.5);
+  }
+}
+
+@media screen and (max-width:1399px){
+  .contents_company{
+    margin-left: 60px;
+  }
+
+  .contents_company,
+  .company_story{
+    width: calc((100% - 310px) / 2);
+  }
+
+  iframe{
+    position: inherit;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 140px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width:1023px){
+  main section{
+    flex-direction: column;
+  }
+
+  .contents_company{
+    margin-left: 140px;
+    margin-top: 50px;
+  }
+
+  .contents_company,
+  .company_story{
+    width: inherit;
+  }
+
+  iframe{
+    width: inherit;
+  }
+}
