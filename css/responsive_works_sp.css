@@ -1,0 +1,49 @@
+@media screen and (max-width:735px){
+  main section{
+    flex-direction: column;
+  }
+
+  main section h3{
+    width: 100%;
+    position: inherit;
+  }
+
+  main section h3 img{
+    display: none;
+  }
+
+  main section h3 span.hidden{
+    display: block;
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+    letter-spacing: 0.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .category_list{
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+  .contents_works{
+    margin: 0;
+  }
+
+  .contents_works .contents_list li{
+    width: 75%;
+    margin: 0 auto 60px;
+  }
+}
+
+@media screen and (orientation:landscape){
+  .contents_list li{
+    margin-bottom: 60px;
+    width: calc(100% / 2);
+  }
+
+  .contents_list li img{
+    width: calc(100% - 20px);
+  }
+}

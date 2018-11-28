@@ -68,14 +68,14 @@ SLIDER;
     <h3><img src="img/h3_works.svg"><span class="hidden">制作実績</span></h3>
     <div class="sectionInner">
       <ul>
-        <li><img src="img/works/glande.jpg"><span class="hidden">glande様　webサイト</span></li>
+        <li>
+          <img src="img/works/glande.jpg"><span class="hidden">glande様　webサイト</span>
+        </li>
         <li><img src="img/works/poster.jpg"><span class="hidden">下町っこ様　ポスター</span></li>
         <li><img src="img/works/tiara.jpg"><span class="hidden">ティアラ様　webサイト</span></li>
         <li><img src="img/works/sympathy.jpg"><span class="hidden">シンパシー様　webサイト</span></li>
         <li><img src="img/works/glande.jpg"><span class="hidden">glande様　webサイト</span></li>
         <li><img src="img/works/poster.jpg"><span class="hidden">下町っこ様　ポスター</span></li>
-        <li><img src="img/works/tiara.jpg"><span class="hidden">ティアラ様　webサイト</span></li>
-        <li><img src="img/works/sympathy.jpg"><span class="hidden">シンパシー様　webサイト</span></li>
       </ul>
     </div>
   </section>

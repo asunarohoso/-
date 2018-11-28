@@ -17,14 +17,14 @@
   $('p.add_open').click(function(){
     $('nav,p.add_close').fadeIn(250);
     $('p.add_open').fadeOut(250);
-    $('main').addClass('blur');
+    $('main,.flame img').addClass('blur');
     no_scroll();
   });
   //メニュー閉じる
   $('li#close,p.add_close').click(function(){
     $('nav,p.add_close').fadeOut(250);
     $('p.add_open').fadeIn(250);
-    $('main').removeClass('blur');
+    $('main,.flame img').removeClass('blur');
     return_scroll();
   });
 </script>

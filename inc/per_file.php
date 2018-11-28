@@ -18,4 +18,20 @@ $footer = <<<EOT
 EOT;
 }
 
+// media
+if($file_name == 'media'){
+  $meta = <<<EOT
+EOT;
+  $footer = <<<EOT
+EOT;
+}
+
+// contact
+if($file_name == 'contact'){
+  $meta = <<<EOT
+EOT;
+  $footer = <<<EOT
+EOT;
+}
+
 ?>

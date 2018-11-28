@@ -1,0 +1,59 @@
+@media screen and (max-width:735px){
+  main section{
+    flex-direction: column;
+  }
+
+  main section h3{
+    width: 100%;
+    position: inherit;
+  }
+
+  main section h3 img{
+    display: none;
+  }
+
+  main section h3 span.hidden{
+    display: block;
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+    letter-spacing: 0.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  h4{
+    font-size: 1rem;
+  }
+
+  .contents_contact{
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .contents_contact .contact_phone{
+    margin-top: 40px;
+    width: 100%;
+    min-width: inherit;
+    padding: 20px;
+  }
+
+  .contents_contact .contact_phone p a{
+    font-size: 2rem;
+  }
+
+  .contents_contact .contact_form{
+    padding: 20px;
+  }
+}
+
+@media screen and (orientation:landscape){
+  .contents_list li{
+    margin-bottom: 60px;
+    width: calc(100% / 2);
+  }
+
+  .contents_list li img{
+    width: calc(100% - 20px);
+  }
+}
