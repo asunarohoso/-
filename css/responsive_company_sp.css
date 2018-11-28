@@ -1,0 +1,55 @@
+@media screen and (max-width:735px){
+  main section{
+    flex-direction: column;
+    margin: 40px 20px;
+  }
+
+  main section h3{
+    width: 100%;
+    position: inherit;
+  }
+
+  main section h3 img{
+    display: none;
+  }
+
+  main section h3 span.hidden{
+    display: block;
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+    letter-spacing: 0.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  h4{
+    font-size: 1rem;
+  }
+
+  .company_story,
+  .contents_company,
+  iframe{
+    margin-left: 0;
+  }
+
+  .company_story{
+    margin-top: 40px;
+  }
+
+  .company_story h5{
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .company_story p span{
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+  }
+
+
+}
+
+@media screen and (orientation:landscape){
+
+}
