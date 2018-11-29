@@ -21,6 +21,17 @@ section{
   display: flex;
 }
 
+main{
+  background: #e6e6e6;
+}
+
+.news_index,
+.works_index,
+.media_index,
+.company_index{
+  background: #fff;
+}
+
 h3{
   display: flex;
   width: calc(100% / 5);

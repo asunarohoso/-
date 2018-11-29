@@ -2,15 +2,15 @@
 <?php include_once("inc/header.php"); ?>
 <main>
   <section>
-    <h3><img src="img/h3_company.svg"><span class="hidden">会社概要</span></h3>
-    <div class="company_story">
+    <h3 class="scroll_hide"><img src="img/h3_company.svg"><span class="hidden">会社概要</span></h3>
+    <div class="company_story scroll_hide" data-delay="20">
       <h5>いつでも真摯な姿勢で</h5>
       <p>企業はより良い人財からとは言い古された言葉ですが、弊社は創業以来今日に至るまで企業様はどのような人財をお望みか、どのような人財が必要かを常に追求してまいりました。</p>
       <p>市場環境の急激な変化、企業間競争が益々激化し、又個々の多種多様な価値観と、より一層の混在を向かえる昨今でございます。</p>
       <p>当あすなろ報創では、クライアント様と密接なコミュニケーションを確立しつつ、新たな価値ある情報を提供し、企業の発展に貢献できることをモットーとして、社員一同邁進いたします。</p>
       <p>代表取締役　<span>伊豆味 文明</span></p>
     </div>
-    <div class="contents_company">
+    <div class="contents_company scroll_hide" data-delay="40">
       <dl>
         <dt>社名</dt>
         <dd>株式会社あすなろ報創</dd>
@@ -55,7 +55,7 @@
       </dl>
       <dl>
         <dt>ホームページ</dt>
-        <dd>http://www.asunaro-h.co.jp</dd>
+        <dd>asunaro-h.co.jp</dd>
       </dl>
       <dl>
         <dt>取引銀行</dt>
@@ -79,7 +79,7 @@
         </dd>
       </dl>
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4156329831308!2d139.7661413154727!3d35.69138833702189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c0157967041%3A0xa816c43fbf391f68!2z5qCq5byP5Lya56S-44GC44GZ44Gq44KN5aCx5Ym1!5e0!3m2!1sja!2sjp!4v1542013063996" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe class="scroll_hide" data-delay="60" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4156329831308!2d139.7661413154727!3d35.69138833702189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c0157967041%3A0xa816c43fbf391f68!2z5qCq5byP5Lya56S-44GC44GZ44Gq44KN5aCx5Ym1!5e0!3m2!1sja!2sjp!4v1542013063996" frameborder="0" style="border:0" allowfullscreen></iframe>
   </section>
 </main>
 <?php include_once("inc/footer.php"); ?>

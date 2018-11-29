@@ -27,6 +27,35 @@
     $('main,.flame img').removeClass('blur');
     return_scroll();
   });
+
+  var scrollAnimationElm = document.querySelectorAll('.scroll_hide');
+  var scrollAnimationFunc = function() {
+    for(var i = 0; i < scrollAnimationElm.length; i++) {
+      var triggerMargin = 250;
+      <?php if($browser == 'sp'){ ?>
+      var triggerMargin = 100;
+      <?php } ?>
+      var elm = scrollAnimationElm[i];
+      var showPos = 0;
+      if(elm.dataset.sa_margin != null) {
+        triggerMargin = parseInt(elm.dataset.sa_margin);
+      }
+      if(elm.dataset.sa_trigger) {
+        showPos = document.querySelector(elm.dataset.sa_trigger).getBoundingClientRect().top + triggerMargin;
+      } else {
+        showPos = elm.getBoundingClientRect().top + triggerMargin;
+      }
+      if (window.innerHeight > showPos) {
+        var delay = (elm.dataset.delay)? elm.dataset.delay : 0;
+        setTimeout(function(index) {
+          scrollAnimationElm[index].classList.add('scroll_show');
+        }.bind(null, i), delay);
+      }
+    }
+  }
+  window.addEventListener('load', scrollAnimationFunc);
+  window.addEventListener('scroll', scrollAnimationFunc);
+
 </script>
 <?=$footer;?>
 </body>

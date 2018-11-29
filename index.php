@@ -11,13 +11,13 @@ $slider = <<<SLIDER
 ]
 SLIDER;
 ?>
-  <div id="zoom_slider" data-zs-src='<?=$slider;?>' data-zs-overlay="dots" data-zs-bullets="false">
+  <div class="scroll_hide" id="zoom_slider" data-zs-src='<?=$slider;?>' data-zs-overlay="dots" data-zs-bullets="false">
     <div class="slider-inner-content">
       <h2>神田の広告代理店あすなろ報創</h2>
     </div>
   </div>
   <!-- news -->
-  <section class="news_index">
+  <section class="news_index scroll_hide">
     <h3><img src="img/h3_news.svg"><span class="hidden">新着情報</span></h3>
     <div class="sectionInner">
       <ul>
@@ -45,7 +45,7 @@ SLIDER;
     </div>
   </section>
   <!-- media -->
-  <section class="media_index">
+  <section class="media_index scroll_hide">
     <h3><img src="img/h3_media.svg"><span class="hidden">取扱媒体</span></h3>
     <div class="sectionInner">
       <div>
@@ -64,7 +64,7 @@ SLIDER;
     </div>
   </section>
   <!-- works -->
-  <section class="works_index">
+  <section class="works_index scroll_hide">
     <h3><img src="img/h3_works.svg"><span class="hidden">制作実績</span></h3>
     <div class="sectionInner">
       <ul>
@@ -80,7 +80,7 @@ SLIDER;
     </div>
   </section>
   <!-- company -->
-  <section class="company_index">
+  <section class="company_index scroll_hide">
     <h3><img src="img/h3_company.svg"><span class="hidden">会社概要</span></h3>
     <div class="sectionInner">
       <div>

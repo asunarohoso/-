@@ -25,7 +25,7 @@ main section h3 img{
 
 .contents_company{
   flex-shrink: 0;
-  margin-left:100px;
+  margin-left: calc(100px - 0.5%);
 }
 
 .contents_company dl{

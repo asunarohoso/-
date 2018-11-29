@@ -19,6 +19,9 @@ include_once('inc/per_file.php');
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/style_<?=$file_name;?>.css">
   <link rel="stylesheet" href="css/responsive_<?=$file_name;?>.css">
+  <?php if($file_name !== 'index'){ ?>
+  <link rel="stylesheet" href="css/per_file.css">
+  <?php } ?>
   <?php if($browser == 'sp'){ ?>
   <link rel="stylesheet" href="css/style_flame_sp.css">
   <link rel="stylesheet" href="css/responsive_<?=$file_name;?>_sp.css">
