@@ -5,7 +5,7 @@
   <h3><img src="img/h3_contact.svg"><span class="hidden">お問い合わせ</span></h3>
   <div class="contents_contact">
     <div class="contact_phone">
-      <h4>電話でのお問い合わせ</h4>
+      <h4>電話でのお問い合わせ<span>受付時間 10:00~18:00（土日祝日、当社指定休日は休み）</span></h4>
       <p><a href="tel:03-3254-3111">03-3254-3111</a></p>
     </div>
     <div class="contact_form">

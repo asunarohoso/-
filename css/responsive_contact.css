@@ -31,12 +31,18 @@ main section h3 img{
 
 .contents_contact .contact_phone{
   width: 50%;
-  min-width: 430px;
+  min-width: 460px;
 }
 
 h4{
   font-size: 20px;
   letter-spacing: 4px;
+}
+
+h4 span{
+  font-size: 12px;
+  letter-spacing: 0.1rem;
+  display: block;
 }
 
 .contents_contact .contact_phone p{
@@ -56,8 +62,8 @@ h4{
 }
 
 .contents_contact .contact_form p{
-  font-family: 'Noto Sans SC', sans-serif;
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .contents_contact .contact_form form{
