@@ -23,7 +23,16 @@ span.hidden {
   transition: all 0.5s ease;
 }
 
+h3.scroll_hide{
+  filter: blur(3px);
+  transition: all 0.5s ease;
+}
+
 .scroll_show{
   opacity: 1;
   transform: none;
+}
+
+h3.scroll_show{
+  filter: blur(0);
 }

@@ -92,20 +92,36 @@ h4 span{
 
 .contents_contact .contact_form form dl dd input,
 .contents_contact .contact_form form dl dd textarea{
-  font-size: 14px;
+  font-size: 13px;
   border: none;
   background: #e2e1e1;
   padding: 5px;
+  letter-spacing: 0.11rem
+}
+
+.contents_contact .contact_form form dl dd input:focus,
+.contents_contact .contact_form form dl dd textarea:focus{
+  font-size: 18px;
+  transition: 0.2s;
+  letter-spacing: 0.2rem
 }
 
 .contents_contact .contact_form form dl dd input{
   width: 50%;
   min-width: 400px;
-  height: 27px;
+  min-height: 27px;
 }
 
 .contents_contact .contact_form form dl dd textarea{
   width: 100%;
+}
+
+.contents_contact .contact_form form dl dd input#submit{
+  background: #00A291;
+  color: #fff;
+  height: 45px;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
 }
 
 .category_list{

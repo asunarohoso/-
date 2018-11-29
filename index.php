@@ -2,7 +2,7 @@
 <?php include_once("inc/header.php"); ?>
 <main>
   <!-- slider -->
-  <?php
+<?php
 $slider = <<<SLIDER
 [
 "img/zoomslider/slider_1.jpg",
@@ -11,11 +11,11 @@ $slider = <<<SLIDER
 ]
 SLIDER;
 ?>
-  <div class="scroll_hide" id="zoom_slider" data-zs-src='<?=$slider;?>' data-zs-overlay="dots" data-zs-bullets="false">
-    <div class="slider-inner-content">
-      <h2>神田の広告代理店あすなろ報創</h2>
-    </div>
+<div class="scroll_hide" id="zoom_slider" data-zs-src='<?=$slider;?>' data-zs-overlay="dots" data-zs-bullets="false">
+  <div class="slider-inner-content">
+    <h2>神田の広告代理店あすなろ報創</h2>
   </div>
+</div>
   <!-- news -->
   <section class="news_index scroll_hide">
     <h3><img src="img/h3_news.svg"><span class="hidden">新着情報</span></h3>
@@ -41,6 +41,9 @@ SLIDER;
           <span class="date">2018.08.06</span>
           <span class="newsTitle">株式会社MM建設様　ランクリードへの掲載が開始されました</span>
         </li>
+        <li>
+          <a href="#" class="view_more"> >> もっと見る</a>
+        </li>
       </ul>
     </div>
   </section>
@@ -51,7 +54,8 @@ SLIDER;
       <div>
         ここに示しました各種メディア媒体以外もご相談を承ります。 広告をご用命の際は是非、総合広告代理店、株式会社あすなろ報創を。<br>
         優秀なスタッフが御社の為に費用対効果の高い広告宣伝戦略を立案から制作、そしてアフターフォローまでしっかりとお手伝いさせていただきます。<br>
-        確かな広告、確かな手ごたえ、そして確かなお値段で真心のこもったサービスを展開しております。
+        確かな広告、確かな手ごたえ、そして確かなお値段で真心のこもったサービスを展開しております。<br>
+        <a href="media.php" class="view_more"> >> もっと見る</a>
       </div>
       <ul>
         <li><img src="img/media/media_logo_tosupo.jpg"><span class="hidden">東京スポーツ</span></li>
@@ -68,9 +72,7 @@ SLIDER;
     <h3><img src="img/h3_works.svg"><span class="hidden">制作実績</span></h3>
     <div class="sectionInner">
       <ul>
-        <li>
-          <img src="img/works/glande.jpg"><span class="hidden">glande様　webサイト</span>
-        </li>
+        <li><img src="img/works/glande.jpg"><span class="hidden">glande様　webサイト</span></li>
         <li><img src="img/works/poster.jpg"><span class="hidden">下町っこ様　ポスター</span></li>
         <li><img src="img/works/tiara.jpg"><span class="hidden">ティアラ様　webサイト</span></li>
         <li><img src="img/works/sympathy.jpg"><span class="hidden">シンパシー様　webサイト</span></li>
