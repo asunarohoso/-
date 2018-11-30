@@ -1,7 +1,7 @@
 <footer>
   <div class="flame"><img id="copyright" src="img/copyright.svg" alt="コピーライト"></div>
 </footer>
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>
   function no_scroll(){
     var scroll_event = 'onwheel' in document ? 'wheel' : 'onmousewheel' in document ? 'mousewheel' : 'DOMMouseScroll';
@@ -28,6 +28,7 @@
     return_scroll();
   });
 
+  //スクロールアニメーション
   var scrollAnimationElm = document.querySelectorAll('.scroll_hide');
   var scrollAnimationFunc = function() {
     for(var i = 0; i < scrollAnimationElm.length; i++) {
@@ -55,6 +56,19 @@
   }
   window.addEventListener('load', scrollAnimationFunc);
   window.addEventListener('scroll', scrollAnimationFunc);
+
+  //バリデーション
+  $("input").blur(function(){
+    if($(this).val() == ""){
+      $(this).next("span").text("※必須項目です");
+    }else{
+      $(this).next("span").text("※入力形式に誤りがあります");
+    }
+  });
+
+  window.checkAll = function(form) {
+    form.btnSubmit.disabled = !form.checkValidity();
+  };
 
 </script>
 <?=$footer;?>
