@@ -1,55 +1,55 @@
-html{
+html {
   min-width: 100vw;
 }
 
-main section{
+main section {
   display: flex;
   margin: 40px 0;
 }
 
-main section h3{
+main section h3 {
   width: 140px;
   text-align: center;
   position: fixed;
 }
 
-main section h3 img{
+main section h3 img {
   width: 40px;
 }
 
-.contents_contact{
+.contents_contact {
   width: 100%;
   margin-right: 40px;
   margin-left: 140px;
 }
 
 .contents_contact .contact_phone,
-.contents_contact .contact_form{
+.contents_contact .contact_form {
   padding: 40px;
   background: #f4f4f4;
 }
 
-.contents_contact .contact_phone{
+.contents_contact .contact_phone {
   width: 50%;
   min-width: 460px;
 }
 
-h4{
+h4 {
   font-size: 20px;
   letter-spacing: 4px;
 }
 
-h4 span{
+h4 span {
   font-size: 12px;
   letter-spacing: 0.1rem;
   display: block;
 }
 
-.contents_contact .contact_phone p{
+.contents_contact .contact_phone p {
   margin: 0;
 }
 
-.contents_contact .contact_phone p a{
+.contents_contact .contact_phone p a {
   font-size: 45px;
   font-weight: bold;
   letter-spacing: 6px;
@@ -57,63 +57,126 @@ h4 span{
   color: #00a291;
 }
 
-.contents_contact .contact_form{
+.contents_contact .contact_form {
   margin-top: 40px;
 }
 
-.contents_contact .contact_form p{
+.contents_contact .contact_form p {
   font-size: 13px;
   font-weight: bold;
 }
 
-.contents_contact .contact_form form{
+.contents_contact .contact_form p span{
+  margin-left: 10px;
+  color: #e43131;
+}
+
+.contents_contact .contact_form form {
   margin-top: 40px;
 }
 
-.contents_contact .contact_form form dl{
+.contents_contact .contact_form form dl {
   margin-top: 7px;
   display: flex;
 }
 
 .contents_contact .contact_form form dl dt,
-.contents_contact .contact_form form dl dd{
+.contents_contact .contact_form form dl dd {
   font-family: 'Noto Sans SC', sans-serif;
   font-size: 13px;
 }
 
-.contents_contact .contact_form form dl dt{
+.contents_contact .contact_form form dl dt {
   flex-shrink: 0;
   width: 160px;
 }
 
-.contents_contact .contact_form form dl dd{
+.contents_contact .contact_form form dl dt span{
+  color: #e43131;
+  margin-left: 7px;
+  font-size: 1rem;
+}
+
+.contents_contact .contact_form form dl dd {
   width: 100%;
 }
 
 .contents_contact .contact_form form dl dd input,
-.contents_contact .contact_form form dl dd textarea{
-  font-size: 14px;
+.contents_contact .contact_form form dl dd textarea {
+  font-size: 13px;
   border: none;
   background: #e2e1e1;
   padding: 5px;
+  letter-spacing: 0.11rem
 }
 
-.contents_contact .contact_form form dl dd input{
+.contents_contact .contact_form form dl dd input:focus,
+.contents_contact .contact_form form dl dd textarea:focus {
+  font-size: 18px;
+  transition: 0.2s;
+  letter-spacing: 0.2rem;
+}
+
+.contents_contact .contact_form form dl dd input {
   width: 50%;
   min-width: 400px;
-  height: 27px;
+  min-height: 27px;
 }
 
-.contents_contact .contact_form form dl dd textarea{
+.contents_contact .contact_form form dl dd input + span.invalid {
+  font-weight: bold;
+  color: #e43131;
+  letter-spacing: 0.15rem;
+}
+
+.contents_contact .contact_form form dl dd input.focused:invalid + span.invalid {
+  display: block;
+}
+
+
+.contents_contact .contact_form form dl dd input:valid + span.invalid + span.valid{
+  display: block;
+  color: #00A291;
+}
+
+.contents_contact .contact_form form dl dd input + span.invalid,
+.contents_contact .contact_form form dl dd input + span.invalid + span.valid,
+.contents_contact .contact_form form dl dd input:valid + span.invalid,
+.contents_contact .contact_form form dl dd input:focus + span.invalid,
+.contents_contact .contact_form form dl dd input:focus + span.invalid + span.valid{
+  display: none;
+}
+
+.contents_contact .contact_form form dl dd textarea {
   width: 100%;
 }
 
-.category_list{
+.contents_contact .contact_form form dl dd input#submit {
+  background: #00A291;
+  color: #fff;
+  height: 45px;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: 0.5s;
+  cursor:pointer;
+}
+
+.contents_contact .contact_form form dl dd input#submit:hover{
+  opacity: 0.6;
+}
+
+.contents_contact .contact_form form dl dd input#submit:disabled{
+  opacity: 0.5;
+  background: #adadad;
+  cursor:auto;
+}
+
+.category_list {
   margin-bottom: 40px;
   display: flex;
 }
 
-.category_list li{
+.category_list li {
   position: relative;
   margin-left: 15px;
   font-family: 'Noto Sans SC', sans-serif;
@@ -121,7 +184,7 @@ h4 span{
   color: #b1b1b1;
 }
 
-.category_list li::after{
+.category_list li::after {
   position: absolute;
   bottom: 1px;
   left: 0;
@@ -129,59 +192,58 @@ h4 span{
   width: 100%;
   height: 1px;
   background: #00A291;
-  transform: scale(0,1);
+  transform: scale(0, 1);
   transform-origin: left top;
   transition: transform .1s;
 }
 
-.category_list li:first-child{
+.category_list li:first-child {
   margin: 0;
 }
 
-.category_list li:hover::after{
-  transform: scale(1,1)
+.category_list li:hover::after {
+  transform: scale(1, 1)
 }
 
-.category_list li.active{
+.category_list li.active {
   color: #000;
 }
 
-.contents_list{
+.contents_list {
   display: flex;
   flex-flow: wrap;
 }
 
-.contents_list li{
+.contents_list li {
   margin-bottom: 60px;
 }
 
-.contents_list li img{
+.contents_list li img {
   width: calc(100% - 20px);
 }
 
-.contents_list li dl{
+.contents_list li dl {
   margin-top: 15px;
 }
 
 .contents_list li dl dt,
-.contents_list li dl dd{
+.contents_list li dl dd {
   font-family: 'Noto Sans SC', sans-serif;
   font-size: 13px;
 }
 
-@media screen and (max-width:1023px){
-  .contents_contact .contact_form form dl{
+@media screen and (max-width:1023px) {
+  .contents_contact .contact_form form dl {
     display: flex;
     flex-direction: column;
   }
 
-  .contents_contact .contact_form form dl dd{
+  .contents_contact .contact_form form dl dd {
     margin-top: 3px;
   }
 
-  .contents_contact .contact_form form dl dd input{
+  .contents_contact .contact_form form dl dd input {
     min-width: inherit;
     width: 100%;
   }
 }
-

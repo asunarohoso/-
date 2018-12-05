@@ -26,7 +26,7 @@ include_once('inc/per_file.php');
   <link rel="stylesheet" href="css/style_flame_sp.css">
   <link rel="stylesheet" href="css/responsive_<?=$file_name;?>_sp.css">
   <?php } ?>
-  <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+  <script src="js/modernizr-2.6.2.min.js"></script>
   <?=$meta;?>
 
   <title>東京神田の広告代理店あすなろ報創</title>
