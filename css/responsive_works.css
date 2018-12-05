@@ -3,6 +3,12 @@
   margin-left: 140px;
 }
 
+@media all and (-ms-high-contrast: none){
+  .contents_works{
+    max-width: calc(100vw - 321px);
+  }
+}
+
 .contents_list{
   display: flex;
   flex-flow: wrap;
