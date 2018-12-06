@@ -17,7 +17,7 @@
             <dd>
               <input type="text" required onblur='this.classList.add("focused")' placeholder="あすなろ太郎">
               <span class="invalid"></span>
-              <span class="valid">OK</span>
+              <span class="valid"><img src="img/contact/check.png"></span>
             </dd>
           </dl>
           <dl>
@@ -25,7 +25,7 @@
             <dd>
               <input type="email" required onblur='this.classList.add("focused")' placeholder="info@sample.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
               <span class="invalid">※メールアドレスの形式に誤りがあります</span>
-              <span class="valid">OK</span>
+              <span class="valid"><img src="img/contact/check.png"></span>
             </dd>
           </dl>
           <dl>
@@ -33,7 +33,7 @@
             <dd>
               <input type="tel" required onblur='this.classList.add("focused")' placeholder="012-345-6789" pattern="\d{2,4}-?\d{3,4}-?\d{3,4}">
               <span class="invalid">※電話番号の形式に誤りがあります</span>
-              <span class="valid">OK</span>
+              <span class="valid"><img src="img/contact/check.png"></span>
             </dd>
           </dl>
           <dl>

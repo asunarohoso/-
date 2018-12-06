@@ -1,7 +1,7 @@
 <?php include_once("inc/meta.php"); ?>
 <?php include_once("inc/header.php"); ?>
 <main>
-  <!-- slider -->
+<!-- slider -->
 <?php
 $slider = <<<SLIDER
 [
@@ -11,11 +11,16 @@ $slider = <<<SLIDER
 ]
 SLIDER;
 ?>
-<div class="scroll_hide" id="zoom_slider" data-zs-src='<?=$slider;?>' data-zs-overlay="dots" data-zs-bullets="false">
-  <div class="slider-inner-content">
-    <h2>神田の広告代理店あすなろ報創</h2>
+  <div class="scroll_hide" id="zoom_slider" data-zs-src='<?=$slider;?>' data-zs-overlay="dots" data-zs-bullets="false">
+    <div class="slider-inner-content">
+      <h2>
+        <img id="char" src="img/logochar_s_white.svg" alt="全国新聞・各種雑誌・印刷物全般・ウェブ - 総合広告代理店 - 株式会社あすなろ報創">
+        <p>
+          あすなろ報創は東京都千代田区内神田の広告代理店です。効果的な広告のご用命、ご相談は是非当社にお任せください。東京スポーツ、その他各新聞メディアや雑誌広告も取り扱っております。インターネット広告、ホームページの作成、リニューアル等や、ポスター、チラシの作成も承ります。
+        </p>
+      </h2>
+    </div>
   </div>
-</div>
   <!-- news -->
   <section class="news_index scroll_hide">
     <h3><img src="img/h3_news.svg"><span class="hidden">新着情報</span></h3>

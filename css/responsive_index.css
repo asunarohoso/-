@@ -24,6 +24,12 @@
     min-width: 100vw;
   }
 
+  h2 p{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.12rem;
+  }
+
   section{
     align-items: flex-start;
   }

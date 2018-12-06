@@ -136,7 +136,7 @@ h4 span {
 
 .contents_contact .contact_form form dl dd input:valid + span.invalid + span.valid{
   display: block;
-  color: #00A291;
+  margin-left: 3px;
 }
 
 .contents_contact .contact_form form dl dd input + span.invalid,

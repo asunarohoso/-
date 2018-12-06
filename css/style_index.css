@@ -3,6 +3,8 @@
   width: 100%;
   min-height: calc(100vh - 130px);
   background-color: #999;
+  display: flex;
+  align-items: center;
 }
 
 .slider-inner-content{
@@ -11,9 +13,17 @@
 }
 
 h2{
-  font-size: calc(100vw / 8.4);
-  letter-spacing: 0.5rem;
-  line-height: calc(100vw / 7.5)
+  margin-bottom: 80px;
+}
+
+h2 img{
+
+}
+
+h2 p{
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
 }
 
 section{
