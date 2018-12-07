@@ -34,7 +34,7 @@ EOT;
 EOT;
 }
 
-// contact
+// company
 if($file_name == 'company'){
   $meta = <<<EOT
 EOT;

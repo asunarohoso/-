@@ -9,7 +9,7 @@
 
 .slider-inner-content{
   color: #fff;
-  padding: 39px
+  padding: 39px calc(15%);
 }
 
 h2{

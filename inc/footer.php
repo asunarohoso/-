@@ -32,7 +32,10 @@
   var scrollAnimationElm = document.querySelectorAll('.scroll_hide');
   var scrollAnimationFunc = function() {
     for(var i = 0; i < scrollAnimationElm.length; i++) {
-      var triggerMargin = 250;
+      var triggerMargin = 150;
+      <?php if($file_name !== 'index'){ ?>
+      var triggerMargin = 50;
+      <?php } ?>
       <?php if($browser == 'sp'){ ?>
       var triggerMargin = 100;
       <?php } ?>

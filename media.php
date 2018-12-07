@@ -10,6 +10,10 @@
       <li><a href="#">インターネット広告</a></li>
       <li><a href="#">その他</a></li>
     </ul>
+    <div class="scroll_hide ranqlead" data-delay="280">
+      <img class="ranq_pc" src="img/media/ranqlead.jpg" style="border:2px solid #e6e6e6;">
+      <img class="ranq_sp" src="img/media/ranqlead_sp.jpg" style="border:2px solid #e6e6e6;">
+    </div>
     <ul class="media_list">
       <li class="scroll_hide" data-delay="300">
         <img src="img/media/tokyo_sports.png" alt="">

@@ -1,0 +1,68 @@
+.ranqlead {
+  display: flex;
+  margin-bottom: 70px;
+  border: 2px solid #e6e6e6;
+  padding: 15px;
+  width: 1000px;
+}
+
+.lanq_left div {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+
+.lanq_middle img {
+  margin-left: 30px;
+  width: 200px;
+}
+
+.lanq_right {
+  margin-left: 30px;
+}
+
+.lanq_right div:first-child {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.lanq_right div:nth-child(2){
+  display: flex;
+}
+
+.lanq_right div:nth-child(2) dl dt{
+  text-align:center;font-size:0.9rem;
+}
+
+.lanq_right div:nth-child(2) dl dd img{
+  width: 120px;
+}
+
+.lanq_right div:nth-child(2) dl:nth-child(2) dd img{
+  width: 120px;
+  margin-top: 9px;
+}
+
+.lanq_right div:last-child{
+  font-family:'Noto Sans SC', sans-serif;
+  font-size:0.9rem;
+  text-align:center;
+}
+
+@media screen and (max-width:1299px){
+  .ranqlead {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .lanq_right{
+    display: flex;
+    margin: 20px 0 0 0;
+  }
+
+}

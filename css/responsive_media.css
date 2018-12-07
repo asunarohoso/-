@@ -22,6 +22,14 @@ main section h3 img{
   margin-left: 140px;
 }
 
+.ranqlead{
+  margin-bottom: 50px;
+}
+
+.ranq_sp{
+  display: none;
+}
+
 @media all and (-ms-high-contrast: none){
   .contents_media{
     max-width: calc(100vw - 321px);
@@ -55,6 +63,20 @@ main section h3 img{
 
   .contents_list li img{
     width: calc(100% - 20px);
+  }
+
+  .ranqlead img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1023px){
+  .ranq_pc{
+    display: none;
+  }
+
+  .ranq_sp{
+    display: block;
   }
 }
 
